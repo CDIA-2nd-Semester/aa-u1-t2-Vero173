@@ -1,8 +1,0 @@
-
-class Vehiculo(ABC):
-    def __init__(self, marca, modelo, velocidad_maxima):
-        self.marca = marca
-        self.modelo = modelo
-        self.velocidad_maxima = velocidad_maxima
-        self.estrategia_conduccion = None
-
